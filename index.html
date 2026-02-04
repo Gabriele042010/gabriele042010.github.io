@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriele di Santo</title>
+    <meta name="description" content="Sito personale di Gabriele di Santo – studente, sviluppatore e appassionato di tecnologia." />
+
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card: #020617;
+            --primary: #38bdf8;
+            --text: #e5e7eb;
+            --muted: #94a3b8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+
+        body {
+            background: linear-gradient(180deg, #020617, #0f172a);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: rgba(2, 6, 23, 0.85);
+            border-radius: 24px;
+            padding: 3rem;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+        }
+
+        header {
+            margin-bottom: 2.5rem;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header h2 {
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: var(--muted);
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        section h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+
+        p {
+            line-height: 1.7;
+            color: #d1d5db;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 0.6rem;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+        }
+
+        .skill {
+            background: rgba(15, 23, 42, 0.8);
+            border-radius: 14px;
+            padding: 1rem 1.2rem;
+            border: 1px solid rgba(56, 189, 248, 0.15);
+        }
+
+        .links a {
+            display: inline-block;
+            margin-right: 1rem;
+            margin-top: 0.5rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gabriele di Santo</h1>
+            <h2>Studente • Sviluppatore • Appassionato di tecnologia</h2>
+        </header>
+
+        <section>
+            <h3>Chi sono</h3>
+            <p>
+                Mi chiamo Gabriele di Santo e sono uno studente con una forte passione per
+                l'informatica, la programmazione e la tecnologia. Mi piace capire come
+                funzionano le cose in profondità, progettare software ben strutturato
+                e migliorare costantemente le mie competenze tecniche.
+            </p>
+        </section>
+
+        <section>
+            <h3>Cosa faccio</h3>
+            <p>
+                Sviluppo applicazioni desktop e mobile, studio informatica e matematica
+                a livello teorico e pratico e lavoro su progetti personali per
+                consolidare le mie conoscenze. Mi interessa in particolare lo sviluppo
+                di software efficiente, pulito e manutenibile.
+            </p>
+        </section>
+
+        <section>
+            <h3>Competenze</h3>
+            <div class="skills">
+                <div class="skill">C / Programmazione strutturata</div>
+                <div class="skill">Flutter / Dart</div>
+                <div class="skill">HTML, CSS, basi di JavaScript</div>
+                <div class="skill">Strutture dati e algoritmi</div>
+                <div class="skill">Matematica discreta</div>
+                <div class="skill">Git e GitHub</div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Progetti</h3>
+            <p>
+                Lavoro regolarmente su progetti personali pubblicati su GitHub, che
+                spaziano da applicazioni gestionali a strumenti da riga di comando e
+                app mobile. Questo sito funge da punto di partenza per raccogliere
+                e presentare il mio lavoro.
+            </p>
+        </section>
+
+        <section>
+            <h3>Link</h3>
+            <div class="links">
+                <a href="https://github.com/gabriele042010" target="_blank">GitHub</a>
+                <a href="mailto:example@email.com">Email</a>
+            </div>
+        </section>
+
+        <footer>
+            © 2026 — Gabriele di Santo
+        </footer>
+    </div>
+</body>
+</html>
